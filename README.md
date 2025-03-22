@@ -3,6 +3,12 @@
 ## Tools Used
 ### Jupyter notebook, Amazon S3, Snowflake
 
+## Table of Contents
+1. [Dataset description](#dataset-description)
+2. [Project Workflow](#project-workflow)
+3. [Data Analysis in Snowflake](#data-analysis-in-snowflake)
+4. [Future Work](#future-work)
+
 ## Dataset description
 ### Download Yelp open dataset in JSON format: https://business.yelp.com/data/resources/open-dataset/
 ### This dataset contains 1 compressed TAR file (4.35 GB). Uncompressed it contains 1 PDF and 5 JSON files (8.65 GB). Documentation is included.
