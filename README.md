@@ -9,4 +9,12 @@
 ### 1. business.json
 #### Contains business data including location data, attributes, and categories. 
 ![image](https://github.com/user-attachments/assets/a773b883-e072-4ec4-8098-d5802b8e7c92)
+![image](https://github.com/user-attachments/assets/ae89affa-a08d-4986-b76e-359704b4b20e)
+### 2. review.json
+#### Contains full review text data including the user_id that wrote the review and the business_id the review is written for. 
+![image](https://github.com/user-attachments/assets/4cc8f5b6-ff63-4bca-b606-4c0a853c5e22)
+![image](https://github.com/user-attachments/assets/802000f6-c4b3-4f97-954a-a369cf1ab5b4)
+
+
+
 
