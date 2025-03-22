@@ -1,4 +1,4 @@
-# Yelp Business Reviews Data Analysis
+# Yelp Business Reviews Sentimental and Data Analysis
 
 ## Tools Used
 ### Jupyter notebook, Amazon S3, Snowflake
@@ -20,6 +20,19 @@
 #### Checkins on a business. 
 ### 5. tip.json
 #### Tips written by a user on a business. Tips are shorter than reviews and tend to convey quick suggestions. 
+
+## Project Workflow
+![image](https://github.com/user-attachments/assets/cda13fc8-dcdf-4389-b774-4856d055d795)
+### 1. Downloaded the Yelp open dataset.
+### 2. As the file is very large (5 GB), it is not feasible to directly work on this dataset.
+### 3. So created a Python script `splitting_files.ipynb` which splits the whole dataset into 10 smaller datasets.
+#### Note: You can review the file in `splitting_code` folder above.
+### 4. After splitting, the json files are uploaded in Amazon S3 bucket along with yelp_academic_dataset_business.json .
+### 5. In Snowflake, created a new table `yelp_reviews` by copying the data from Amazon S3 bucket using AWS_KEY_ID and AWS_SECRET_KEY.
+### 6. Repeated the same step for `yelp_businesses` table.
+### 7. To perform sentiment analysis on the reviews, used Python library `TextBlob` for sentiment analysis classifying the reviews as Positive, Negative, or Neutral.
+![image](https://github.com/user-attachments/assets/ea301a4e-b984-4ea8-a608-c85532691c72)
+
 
 
 
