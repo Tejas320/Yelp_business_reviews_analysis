@@ -29,10 +29,16 @@
 #### Note: You can review the file in `splitting_code` folder above.
 ### 4. After splitting, the json files are uploaded in Amazon S3 bucket along with yelp_academic_dataset_business.json .
 ### 5. In Snowflake, created a new table `yelp_reviews` by copying the data from Amazon S3 bucket using AWS_KEY_ID and AWS_SECRET_KEY.
+![image](https://github.com/user-attachments/assets/e86e3ab0-6d05-42a9-b300-875594b2795d)
 ### 6. Repeated the same step for `yelp_businesses` table.
+![image](https://github.com/user-attachments/assets/6b798025-43ff-48f2-a584-a9b942ae623a)
 ### 7. To perform sentiment analysis on the reviews, used Python library `TextBlob` for sentiment analysis classifying the reviews as Positive, Negative, or Neutral.
 ![image](https://github.com/user-attachments/assets/ea301a4e-b984-4ea8-a608-c85532691c72)
-
+### 8. As the data is in comma separated format, we need to convert it into tabular format for performing data analysis in Snowflake.
+### 9. Created a new table `tbl_yelp_reviews` having only the necessary columns.
+![image](https://github.com/user-attachments/assets/9ba84bf6-df47-45c7-8888-be64b5f36cae)
+### 10. Created another table `tbl_yelp_businesses` having only the necessary columns.
+![image](https://github.com/user-attachments/assets/f9c95916-c8cb-4b81-be2e-85cd294551de)
 
 
 
