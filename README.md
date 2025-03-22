@@ -1,1 +1,4 @@
-# Yelp_business_reviews_analysis
+# Yelp Business Reviews Data Analysis
+
+## Tools Used
+### Jupyter noebook, Amazon S3, Snowflake
