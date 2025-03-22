@@ -65,7 +65,7 @@
 ![image](https://github.com/user-attachments/assets/f84e50ce-d62b-4cf3-a9ec-f56b76671985)
 
 ## Future Work
-### 
+### As the data analysis is done in Snowflake only, we can extend our analysis more visually using Power BI dashboard.
 
 
 
