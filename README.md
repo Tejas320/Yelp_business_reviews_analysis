@@ -39,6 +39,41 @@
 ![image](https://github.com/user-attachments/assets/9ba84bf6-df47-45c7-8888-be64b5f36cae)
 ### 10. Created another table `tbl_yelp_businesses` having only the necessary columns.
 ![image](https://github.com/user-attachments/assets/f9c95916-c8cb-4b81-be2e-85cd294551de)
+### Now our data is created and well maintained to be used for further analysis.
+
+## Data Analysis in Snowflake
+
+### 1. Find the number of businesses in each category.
+![image](https://github.com/user-attachments/assets/c14cda94-3fcf-425e-ba6b-097068b74566)
+### 2. Find the top 10 users who have reviewed the most businesses in the 'Restaurants' category.
+![image](https://github.com/user-attachments/assets/b02b5418-60f9-4e09-b6f9-3ba9f492d96d)
+### 3. Find the most popular categories of businesses based on number of reviews.
+![image](https://github.com/user-attachments/assets/61368b66-6fba-4e14-b530-2832d4e6ab0c)
+### 4. Find the top 3 most recent reviews for each business.
+![image](https://github.com/user-attachments/assets/3c7d8d3e-2e05-4920-8550-53e97fa59095)
+### 5. Find the month having highest number of reviews.
+![image](https://github.com/user-attachments/assets/98bb8612-2fbd-4d4e-8453-b69c03dd85af)
+### 6. Find the percentage of 5-star reviews for each business.
+![image](https://github.com/user-attachments/assets/ccc9111b-6cbc-43ec-96ba-017fabb213ac)
+### 7. Find the top 5 most reviewed businesses in each city.
+![image](https://github.com/user-attachments/assets/4d814c4e-be2a-4b23-b8bc-e71911bd6bcf)
+### 8. Find the average rating of businesses that have atleast 100 reviews.
+![image](https://github.com/user-attachments/assets/1176351f-07e0-4156-8206-171dec7de4b5)
+### 9. List the top 10 users who have written the most reviews, along with the businesses they reviewed.
+![image](https://github.com/user-attachments/assets/7178297a-cdf6-4fb6-b8d0-55720fe05bd8)
+### 10. Find the top 10 businesses with highest positive sentiment reviews.
+![image](https://github.com/user-attachments/assets/f84e50ce-d62b-4cf3-a9ec-f56b76671985)
+
+## Future Work
+### 
+
+
+
+
+
+
+
+
 
 
 
