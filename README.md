@@ -1,7 +1,7 @@
 # Yelp Business Reviews Data Analysis
 
 ## Tools Used
-### Jupyter noebook, Amazon S3, Snowflake
+### Jupyter notebook, Amazon S3, Snowflake
 
 ## Dataset description
 ### Download Yelp open dataset in JSON format: https://business.yelp.com/data/resources/open-dataset/
@@ -14,7 +14,12 @@
 #### Contains full review text data including the user_id that wrote the review and the business_id the review is written for. 
 ![image](https://github.com/user-attachments/assets/4cc8f5b6-ff63-4bca-b606-4c0a853c5e22)
 ![image](https://github.com/user-attachments/assets/802000f6-c4b3-4f97-954a-a369cf1ab5b4)
-
+### 3. user.json
+#### User data including the user's friend mapping and all the metadata associated with the user. 
+### 4. checkin.json
+#### Checkins on a business. 
+### 5. tip.json
+#### Tips written by a user on a business. Tips are shorter than reviews and tend to convey quick suggestions. 
 
 
 
